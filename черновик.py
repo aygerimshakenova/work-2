@@ -99,12 +99,37 @@
 
 
 # print(sorted(list_))
-list_ = [1, 1, 3]
+# list_ = [1, 1, 3]
 
-for i in range(10):
-    if list_.count(i) == 2:
-        print("yes")
-    elif list_.count(i) == 3:
-        print("yes")
-    elif list_.count(i) > 2:
-        print("ERROR")
+# for i in range(10):
+#     if list_.count(i) == 2:
+#         print("yes")
+#     elif list_.count(i) == 3:
+#         print("yes")
+#     elif list_.count(i) > 2:
+#         print("ERROR")
+
+# list_ = [[i for i in range(1,4)]]* 3
+# # list_2 = [list_] * 3
+# print(list_)
+
+# dict_ = {'first': 1, 'second': 2, 'third': 3} 
+# # a = {
+# #     key: 
+# #     for key, val in dict_.items()
+# # }
+
+# # print(dict_)
+
+# for key, val in dict_.items():
+#     if val % 2 == 0:
+#         dict_[key] = str('even')
+#     else:
+#         dict_[key] = str("odd")
+
+# print(dict_)
+
+
+string_ = 'In 1984 there were 13 instances of a protest with over 1000 people attending'
+string_2 = string_.split()
+print(string_2)
