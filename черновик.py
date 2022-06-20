@@ -130,6 +130,21 @@
 # print(dict_)
 
 
-string_ = 'In 1984 there were 13 instances of a protest with over 1000 people attending'
-string_2 = string_.split()
-print(string_2)
+# string_ = 'In 1984 there were 13 instances of a protest with over 1000 people attending'
+# string_2 = string_.split()
+# print(st)
+
+try:
+    num1 = int(input("Введите первое числло: "))
+    num2 = int(input("Введите второе числло: "))
+    result = num1 / num2
+except ZeroDivisionError:
+    print("На ноль делить нельзя!")
+except ValueError:
+    print("Вы ввели не число")
+else:
+    print(result)
+finally:
+    print("Программа завершена")
+
+
